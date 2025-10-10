@@ -1,0 +1,70 @@
+body{
+
+    margin: 0;
+    background: linear-gradient(orange,pink);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+
+}
+
+.score-btn {
+    margin: 5px;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    height: 60px;
+    width: 60px;
+    font-size:1.2rem;
+    font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+  
+}
+#home-score , #away-score {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    margin-left: 110px;
+    
+}
+
+#home-body, #away-body{
+    margin-left: 90px;
+    font-size: 2rem;
+    margin-top:10px;
+    margin-bottom:3px;
+    
+}
+
+#reset-btn {
+    margin: 100px 330px;
+    background-color: greenyellow;
+    padding: 10px;
+    border: 2px solid grey;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+#reset-btn:hover {
+    background-color:rgb(132, 187, 24);
+    cursor: pointer;
+}
+
+.score-btn:hover{
+
+    background-color: rgb(88, 66, 12);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
